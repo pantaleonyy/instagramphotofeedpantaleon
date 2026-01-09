@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  bg-light">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center ">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#"></a>
+                <i class="fa-brands fa-instagram d-flex align-items-center gap-2"></i>
+                <span>instagram</span>
+            </div>
+
+
+            <div class="dropdown ">
+                <button class="btn btn-primary bg-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo">create a new post</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                                <button class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="text-body p-3">
+                                <p class="fw-bold">Caption:</p>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+
+                                    <div class="mb-3">
+
+                                        <textarea class="form-control" id="message-text"
+                                            placeholder="Add the caption of your here"></textarea>
+                                    </div>
+                                   <button class="btn border"> <i class="fa-solid  fa-camera   "></i></button>
+                                    <button class="btn border"><i class="fa-solid fa-location-dot"></i></button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button class="btn btn-primary bg-success ">publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                     <li><a class="dropdown-item text-danger my-2 w-10 border-top border-secondary  " href="#">Log out  </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-12 align text-center p-3 ">
+            <a class=" text-decoration-none" href="index.html"><i class="fa-solid fa-table-cells"></i> </a>
+            <a class="text-decoration-none" href="lista.html"><i class="fa-solid fa-square"></i> </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container py-3">
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Rain</h2>
+                        <p>06/2014</p>
+
+                    </div>
+
+                    <img src="https://picsum.photos/id/115/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">104 likes</p>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione
+                            tempora, quae deserunt, magni repellendus porro perspiciatis ullam, quas vero nisi voluptas.
+                            Ipsam iste quas eius ea consequuntur nihil voluptatum!</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Guitar</h2>
+                        <p>03/2016</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/145/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">100 likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore
+                            perferendis magnam voluptatum possimus excepturi molestiae neque perspiciatis qui ipsum,
+                            facilis architecto asperiores consequatur odit minus ex? Nulla, quis nostrum.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Deserted </h2>
+                        <p>08/2017</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/185/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">204 likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, saepe quas
+                            dolorum perspiciatis necessitatibus velit. Quis quia harum dolore mollitia. Nobis mollitia
+                            ullam illo? Suscipit pariatur laborum non cumque eius.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Mountain</h2>
+                        <p>09/2017</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/235/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">90 likes</p>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+                            exercitationem perspiciatis libero quisquam harum ipsa veniam omnis quasi. Non eum
+                            asperiores doloribus accusamus fugiat officiis dolor eveniet dolorem recusandae sit.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Building </h2>
+                        <p>04/2018</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/315/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">50 likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptatum
+                            optio dolores minus qui! Explicabo, dolores, numquam culpa vitae maiores modi ipsa
+                            voluptates adipisci, ea unde minus maxime autem repudiandae?</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Road</h2>
+                        <p>08/2019</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/191/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">72likes</p>
+                        <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos,
+                            qui architecto laborum animi quo quaerat dolorem incidunt ea ab molestiae eum, eius voluptas
+                            quia non quas eligendi sunt ratione!
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Forest</h2>
+                        <p>02/2020</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/335/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">140 likes</p>
+                        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+                            assumenda voluptates, minima delectus quidem obcaecati illo, porro earum neque dolorem
+                            impedit amet sint nobis. Itaque laborum quaerat eveniet dolores quod.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Field</h2>
+                        <p>09/2020</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/699/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">32 likes</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tempore laborum optio eum
+                            cumque ab? Asperiores consequuntur vitae ab soluta placeat odit hic tempore odio. Quisquam
+                            cum quasi iure accusantium.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>ocean</h2>
+                        <p>07/2021</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/871/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">340 likes</p>
+                        <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+                            voluptatibus quaerat hic perferendis. Ea, labore atque similique dignissimos repudiandae
+                            corrupti excepturi perferendis facilis ut saepe unde beatae sunt iste error.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Beach</h2>
+                        <p>12/2022</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/295/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">123 likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugit
+                            natus nihil id corrupti ex quidem et atque eligendi rerum labore necessitatibus aliquam
+                            voluptas similique modi quaerat nesciunt, consequuntur amet.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>sky</h2>
+                        <p>06/2022</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/222/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">203 likes</p>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                            molestias reprehenderit doloribus labore voluptatibus fugit dolorum, minus minima nobis sit
+                            nesciunt earum possimus! Sapiente explicabo aspernatur excepturi, repudiandae eos maiores!
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2>Dessert</h2>
+                        <p>06/2023</p>
+                    </div>
+
+                    <img src="https://picsum.photos/id/999/400/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="fw-bold">162likes</p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, modi?
+                            Quidem consequatur porro excepturi labore id dolores sunt, iure, blanditiis, error minima
+                            corporis soluta odio itaque. Recusandae rerum provident nemo.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
